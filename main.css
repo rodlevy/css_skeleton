@@ -15,17 +15,90 @@ small.page_no {
   float: right;
   color: #ddd;
 }
+title{
+  line-height: 110%;
+
+}
+
+p + p {
+  text-indent: 10px;
+}
 
 .pagination {
   background-color: #eee;
   margin: 10px 0px;
+  width: 450px;
+  height: 20px;
+  padding-bottom: 30px;
+  margin: 0;
+  border: black 1px solid;
+
+
 }
 
 .pagination a {
   color: #222;
-  text-decoration: none;
+  text-decoration: underline;
+  font-family: sans-serif;
+  display: inline;
+  padding-left: 8px;
+  margin: 0px;
+
+
 }
 
 .pagination a.disabled {
   color: #ccc;
+}
+/*.pagination .active{
+  background-color: gray;
+  color: white;
+
+}*/
+
+li < a.active {
+  background-color: red;
+}
+
+h2{
+    padding-top: 10px;
+  padding-bottom: 20px;
+}
+body{
+  font-family: serif;
+  line-height: 150%;
+}
+header{
+  font-family: sans-serif;
+}
+h1 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom-style:solid;
+  border-bottom-color:gray;
+  border-bottom-width: 2px;
+}
+blockquote{
+  font-style: italic;
+}
+ol{
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+ol li{
+  list-style: none;
+  position: relative;
+  width: 28px;
+  display: inline-block; 
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px; 
+  padding: 0px;
+  margin: 0;
+}
+
+footer{
+  clear:both;
 }
